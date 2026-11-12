@@ -1,0 +1,58 @@
+Package: FluvialTracer
+Type: Package
+Title: A Comprehensive Package for Sediment Source Unmixing
+Version: 1.0.0
+Date: 2026-10-26
+Authors@R: c(
+    person("Margarita", "Villalonga", role = c("aut", "cre"), email = "mvillalonga@ipe.csic.es"),
+	person("Esther", "Cepeda", role = "aut"),
+    person("Maarten", "Wynants", role = "aut"),
+    person("Ivan", "Lizaga", role = c("aut", "ths", "ldr")),
+    person("Samuel", "Bodé", role = "ctb"),
+    person("Pascal", "Boeckx", role = "ctb"),
+    person("William", "Blake", role = "ctb"),
+    person("Jan", "Vanaverbeke", role = "ctb"),
+    person("Ulrike", "Braeckman", role = "ctb"),
+    person("Aiming", "Lian", role = "ctb"),
+    person("Borja", "Latorre", role = "ctb"),
+    person("Yuri", "Jacques Agra Bezerra da Silva", role = "ctb"),
+	person("Leticia", "Gaspar", role = "ctb"),
+    person("Jorge", "Crespo", role = "ctb"),
+	person("Ana", "Navas", role = "ctb"),
+	person("Maziar", "Mohammadi", role = "ctb"),
+    person("Vince Q", "Vu", role = "ctb")
+    )
+Description: Source apportionment toolkit for fluvial catchments and river sediment provenance. It estimates how much each source contributes to a sediment mixture, using frequentist, Bayesian, and machine-learning models on the same dataset. The software includes tools to check which tracer is causing an unrealistic result, plus built-in validation against artificial mixtures with known, true source proportions.
+License: GPL (>= 2)
+Imports: car, cluster, crayon, dplyr, GGally, ggplot2, ggtext,
+        grDevices, gridExtra, klaR, magrittr, MASS, MixSIAR, plotly,
+        plyr, randomForest, reshape2, rjags, scales, stats, Ternary,
+        tibble, tidyr, tidyselect, utils, xgboost
+Suggests: patchwork, rgl, stringr
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
+Config/roxygen2/version: 8.1.1
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2026-10-27 11:36:08 UTC; usuario
+Author: Margarita Villalonga [aut, cre],
+  Esther Cepeda [aut],
+  Maarten Wynants [aut],
+  Ivan Lizaga [aut, ths, ldr],
+  Samuel Bodé [ctb],
+  Pascal Boeckx [ctb],
+  William Blake [ctb],
+  Jan Vanaverbeke [ctb],
+  Ulrike Braeckman [ctb],
+  Aiming Lian [ctb],
+  Borja Latorre [ctb],
+  Yuri Jacques Agra Bezerra da Silva [ctb],
+  Leticia Gaspar [ctb],
+  Jorge Crespo [ctb],
+  Ana Navas [ctb],
+  Maziar Mohammadi [ctb],
+  Vince Q Vu [ctb]
+Maintainer: Margarita Villalonga <mvillalonga@ipe.csic.es>
+Repository: CRAN
+Date/Publication: 2026-11-12 11:10:24 UTC
